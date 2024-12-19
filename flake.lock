@@ -5,11 +5,11 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1710146030,
-        "narHash": "sha256-SZ5L6eA7HJ/nmkzGG7/ISclqe6oZdOZTNoesiInkXPQ=",
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "b1d9ab70662946ef0850d488da1c9019f3a9752a",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
         "type": "github"
       },
       "original": {
@@ -21,28 +21,28 @@
     "mumps-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1714644934,
-        "narHash": "sha256-X+eX4SBoiA9akp3zPk0niO/mjh4lUbBAJTMG8cBEi6M=",
+        "lastModified": 1721043901,
+        "narHash": "sha256-ZnIfAuvOBJDYqCtKGlWs0r39nG6X2lAVRuUmeIJenZw=",
         "type": "tarball",
-        "url": "https://mumps-solver.org/MUMPS_5.7.1.tar.gz"
+        "url": "https://mumps-solver.org/MUMPS_5.7.3.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://mumps-solver.org/MUMPS_5.7.1.tar.gz"
+        "url": "https://mumps-solver.org/MUMPS_5.7.3.tar.gz"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1718086528,
-        "narHash": "sha256-hoB7B7oPgypePz16cKWawPfhVvMSXj4G/qLsfFuhFjw=",
+        "lastModified": 1734323986,
+        "narHash": "sha256-m/lh6hYMIWDYHCAsn81CDAiXoT3gmxXI9J987W5tZrE=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "47b604b07d1e8146d5398b42d3306fdebd343986",
+        "rev": "394571358ce82dff7411395829aa6a3aad45b907",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixos-24.05",
+        "ref": "nixos-24.11",
         "repo": "nixpkgs",
         "type": "github"
       }

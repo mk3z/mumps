@@ -1,8 +1,8 @@
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 20e4e2b..3804beb 100644
+index a5ebba9..f55c3bd 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -109,19 +109,7 @@ message(STATUS "MUMPS LAPACK_VENDOR: ${LAPACK_VENDOR}")
+@@ -114,13 +114,7 @@ message(STATUS "MUMPS LAPACK_VENDOR: ${LAPACK_VENDOR}")
  message(STATUS "MUMPS SCALAPACK_VENDOR: ${SCALAPACK_VENDOR}")
  
  # --- download MUMPS source
@@ -12,13 +12,7 @@ index 20e4e2b..3804beb 100644
 -
 -set(FETCHCONTENT_QUIET no)
 -
--FetchContent_Populate(${PROJECT_NAME}
--SOURCE_DIR ${PROJECT_SOURCE_DIR}/mumps/${MUMPS_UPSTREAM_VERSION}
--URL ${url}
--TLS_VERIFY ${CMAKE_TLS_VERIFY}
--)
--
--message(VERBOSE "MUMPS ${MUMPS_UPSTREAM_VERSION} source directory: ${mumps_SOURCE_DIR}")
+-FetchContent_Populate(${PROJECT_NAME} URL ${url})
 +set(mumps_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/mumps")
  
  # --- MUMPS build

@@ -2,10 +2,10 @@
   description = "MUMPS";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
     flake-utils.url = "github:numtide/flake-utils";
     mumps-src = {
-      url = "tarball+https://mumps-solver.org/MUMPS_5.7.1.tar.gz";
+      url = "tarball+https://mumps-solver.org/MUMPS_5.7.3.tar.gz";
       flake = false;
     };
   };
